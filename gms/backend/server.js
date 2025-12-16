@@ -70,7 +70,7 @@ app.post('/api/bills', async (req, res) => {
 app.get('/api/bills', async (req, res) => {
     const bills = await Bill.find();
     res.json(bills);
-});
+});  
 
 // Start Server
 app.listen(5000, () => {
