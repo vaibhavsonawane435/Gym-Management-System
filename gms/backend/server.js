@@ -72,7 +72,7 @@ app.get('/api/bills', async (req, res) => {
     res.json(bills);
 });  
 
-// Start Server
+// StartServer
 app.listen(5000, () => {
     console.log('Server running on port 5000');
 });
