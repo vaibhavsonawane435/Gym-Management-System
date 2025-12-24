@@ -78,13 +78,13 @@ cd gym-management-system
 
 cd backend
 npm install   # Install dependencies (Express, Mongoose, Cors)
-node server.js
+npm start
 
 ##Frontend Setup
 
 cd frontend
 npm install   # Install dependencies (React, Axios, Tailwind)
-npm start
+npm run dev
 
 
 
