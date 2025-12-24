@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB (Ensure MongoDB is running locally)
-mongoose.connect('mongodb://localhost:27017/gym_db')
+mongoose.connect('mongodb://127.0.0.1:27017/gym_db')
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.log(err));
 
